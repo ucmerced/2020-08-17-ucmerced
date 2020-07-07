@@ -89,6 +89,8 @@ the pitch.
 {% include dc/intro.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/intro.html %}
+{% elsif site.carpentry == "grow" %}
+{% include grow/intro.html %}
 {% endif %}
 
 {% comment %}
@@ -103,6 +105,8 @@ workshop is only open to people from a particular institution.
 {% include dc/who.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
+{% elsif site.carpentry == "grow" %}
+{% include grow/who.html %}
 {% endif %}
 
 {% comment %}
@@ -296,6 +300,8 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% include dc/schedule.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %}
+{% elsif site.carpentry == "grow" %}
+{% include grow/schedule.html %}
 {% endif %}
 
 <hr/>
@@ -325,6 +331,8 @@ please preview your site before committing, and make sure to run
 {% include dc/syllabus.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/syllabus.html %}
+{% elsif site.carpentry == "grow" %}
+{% include grow/syllabus.html %}
 {% endif %}
 
 <hr/>
@@ -351,6 +359,8 @@ please preview your site before committing, and make sure to run
   Data Carpentry
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
+  {% elsif site.carpentry == "grow" %}
+  Data Carpentry
   {% endif %}
   workshop,
   you will need access to the software described below.
@@ -368,4 +378,6 @@ please preview your site before committing, and make sure to run
 {% include dc/setup.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
+{% elsif site.carpentry == "grow" %}
+{% include grow/setup.html %}
 {% endif %}
