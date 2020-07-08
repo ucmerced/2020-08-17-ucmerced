@@ -86,7 +86,6 @@ the pitch.
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
-<!-- {% include dc/intro.html %} -->
 {% include grow/intro.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/intro.html %}
@@ -101,7 +100,6 @@ workshop is only open to people from a particular institution.
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
 {% elsif site.carpentry == "dc" %}
-<!-- {% include dc/who.html %} -->
 {% include grow/who.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
@@ -295,7 +293,6 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
 {% elsif site.carpentry == "dc" %}
-<!-- {% include dc/schedule.html %} -->
 {% include grow/schedule.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %}
@@ -325,7 +322,6 @@ please preview your site before committing, and make sure to run
 {% if site.carpentry == "swc" %}
 {% include swc/syllabus.html %}
 {% elsif site.carpentry == "dc" %}
-<!-- {% include dc/syllabus.html %} -->
 {% include grow/syllabus.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/syllabus.html %}
@@ -370,7 +366,6 @@ please preview your site before committing, and make sure to run
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
 {% include grow/setup.html %}
-<!-- {% include dc/setup.html %} -->
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% endif %}
